@@ -124,8 +124,12 @@ body{
 
 .first-section{
    background-color: var(--dark-color);
-   height: 600px;
+   width: 1440px;
    padding: 188px 0;
+   margin: 0 auto;
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 
@@ -422,4 +426,13 @@ body{
 
 .pisc-list-nav{
    width: calc((100% - 48px) / 3);
+}
+/* HW4 */
+.value-list-icon{ 
+   width: 264px;
+   height: 112px;
+   flex-shrink: 0;
+   border-radius: 4px;
+   background: var(--light-color);
+   display: flex;
 }
