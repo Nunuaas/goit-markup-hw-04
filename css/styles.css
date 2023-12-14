@@ -438,3 +438,37 @@ body{
    justify-content: center;
    align-items: center;
 }
+
+.social-media-icons-list{ 
+   display: flex;
+   flex-direction: row;
+   padding: 0;
+   gap: 24px;
+   justify-content: center;
+   margin-top: 8px;
+}
+
+.icon{
+   fill: var(--light-color);
+}
+
+.icon-list{
+   width: 40px;
+   height: 40px;
+}
+
+.social-media-link{   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   background-color: var(--primary-brand-color);
+   border: none;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.social-media-link:hover{
+   background-color: var(--pressed-state-color);
+}
