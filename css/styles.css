@@ -487,30 +487,26 @@ body{
    margin: 0;
 }
 
-.customer-list-nav{
+
+.customer-icons{ 
+   padding: 16px 32px;
+   color: var(--subtle-text);
    width: 168px;
    height: 88px;
    border-radius: 4px;
    border: 1px solid var(--subtle-text);
    display: flex;
-   align-items: center;
-   justify-content: center;
    cursor: pointer;
-   color: var(--subtle-text);
-}
-
-.customer-icons{ 
-   fill: currentColor;
-   padding: 16px 32px;
+   fill: var(--subtle-text);
 }
 
 .icon-nav{
-   fill: currentColor;
+   color: var(--subtle-text);
 }
 
-.customer-list-nav,
 .customer-icons:hover{
-   color: var(--pressed-state-color);
+   fill: var(--pressed-state-color);
+   border: 1px solid var(--pressed-state-color);
 }
 .customer-list-nav:focus{
    fill: var(--pressed-state-color);
