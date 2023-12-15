@@ -265,6 +265,8 @@ body{
 .footer{
    background-color: var(--dark-color);
    padding: 100px 0;
+   display: flex;
+   align-items: baseline;
 }
 
 .logo-footer{
@@ -527,15 +529,15 @@ body{
 }
 
 .icon-nav{
-   color: var(--subtle-text);
+   color: currentColor;
 }
 
 .customer-icons:hover{
-   fill: var(--pressed-state-color);
+   color: var(--pressed-state-color);
    border-color: var(--pressed-state-color);
 }
 .customer-icons:focus{
-   fill: var(--pressed-state-color);
+   color: var(--pressed-state-color);
    border-color: var(--pressed-state-color);
 }
 
@@ -544,7 +546,8 @@ body{
    font-size: 16px;
    font-style: normal;
    font-weight: 500;
-   line-height: 1.5em;
+   letter-spacing: 0.02em;
+   line-height:  1.5em;
    color: var(--white-background);
 }
 .social-media-footer{ 
@@ -564,8 +567,12 @@ body{
    }
 
 .footer-div{
-   display: flex;
    gap: 120px;
+   display: flex;
+}
+
+.social-div-footer{
+
 }
 
 .footer-div>.social-media-footer>.icon-list>.social-media-link:hover{
