@@ -581,7 +581,7 @@ body{
 }
 .footer-main-div{
    display: flex;
-   align-content: baseline; 
+   align-items: baseline; 
    padding: 0;
    margin: auto;
    
