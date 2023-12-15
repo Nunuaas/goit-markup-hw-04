@@ -547,12 +547,13 @@ body{
    letter-spacing: 0.02em;
    line-height:  1.5em;
    color: var(--white-background);
+   margin-bottom: 16px;
 }
 .social-media-footer{ 
    display: flex;
    padding: 0;
    gap: 16px;
-   margin-top: 8px;
+   margin: 0;
 }
 
 .footer-list{
@@ -563,9 +564,7 @@ body{
    }
 
 .footer-div{
-   display: flex; 
-   align-content: baseline;
-   flex-direction: column;
+   
    margin-right: 120px;
 }
 
@@ -580,4 +579,10 @@ body{
 .social-div-footer>.social-media-footer>.icon-list>.social-media-link:focus{
    background-color: #31D0AA;
 }
-
+.footer-main-div{
+   display: flex;
+   align-content: baseline; 
+   padding: 0;
+   margin: auto;
+   
+}
